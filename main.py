@@ -4,7 +4,7 @@ import pickle
 from sklearn.preprocessing import  StandardScaler
 scal=StandardScaler()
 
-with open(r'C:\Users\Harshpalsingh\Desktop\Heartapp.pkl','rb') as f:
+with open('Heartapp.pkl','rb') as f:
       model = pickle.load(f)
 
 
